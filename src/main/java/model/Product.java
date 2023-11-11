@@ -2,14 +2,14 @@ package model;
 
 public class Product {
 
-    private int id;
+    private int productId;
     private String name;
     private long quantity;
     private float price;
     private int categoryId;
 
     public Product(int id, String name, long quantity, float price, int categoryId) {
-        this.id = id;
+        this.productId = id;
         this.name = name;
         this.quantity = quantity;
         this.price = price;
@@ -23,9 +23,9 @@ public class Product {
         this.categoryId = categoryId;
     }
 
-    public int getId() { return id; }
+    public int getId() { return productId; }
 
-    public void setId(int id) { this.id = id; }
+    public void setId(int id) { this.productId = id; }
 
     public String getName() { return name; }
 
